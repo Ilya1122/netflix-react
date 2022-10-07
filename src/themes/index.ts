@@ -9,7 +9,6 @@ export const theme = createTheme({
 });
 
 export const defaultTheme = createTheme({
-  // ...theme,
   // components: {
   //   MuiButton: muiButton(theme),
   //   MuiRadio: muiRadioButton(theme),
