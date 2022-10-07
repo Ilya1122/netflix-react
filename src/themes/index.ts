@@ -1,5 +1,7 @@
 import { createTheme } from "@mui/material";
-import { cyan, pink } from "@mui/material/colors";
+// import { cyan, pink } from "@mui/material/colors";
+// import createPalette from "@mui/material/styles/createPalette";
+import { defaultPalette as palette } from "./palettes";
 
 export const theme = createTheme({
   // palette,
@@ -9,6 +11,7 @@ export const theme = createTheme({
 });
 
 export const defaultTheme = createTheme({
+  palette,
   // components: {
   //   MuiButton: muiButton(theme),
   //   MuiRadio: muiRadioButton(theme),
