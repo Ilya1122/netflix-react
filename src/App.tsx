@@ -2,7 +2,7 @@ import React from "react";
 
 export const App: React.FC = () => {
   return (
-    <div className="App">
+    <div>
       <h1>Netflix</h1>
     </div>
   );
